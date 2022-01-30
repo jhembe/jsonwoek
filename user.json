@@ -1,0 +1,50 @@
+[
+    {
+        "name" : "Chelsia",
+        "age" : 50,
+        "isFemale" : true,
+        "siblings" : ["Chean","Chingching","Chelbia"],
+        "friends"  : [
+        {
+            "name" : "Anna",
+            "age"  : 40,
+            "isFemale" : true,
+            "siblings" : ["Chean","Chingching","Chelbia"],
+            "class"  : 12
+        },
+        {
+            "name" : "Tumaini",
+            "age"  : 78,
+            "isFemale" : false,
+            "siblings" : ["Chean","Chingching","Chelbia"]
+    
+        }
+    
+    ]
+    },
+
+    {
+        "name" : "Chelsia",
+        "age" : 50,
+        "isFemale" : true,
+        "siblings" : ["Chean","Chingching","Chelbia"],
+        "friends"  : [
+        {
+            "name" : "Anna",
+            "age"  : 40,
+            "isFemale" : true,
+            "siblings" : ["Chean","Chingching","Chelbia"],
+            "class"  : 12
+        },
+        {
+            "name" : "Tumaini",
+            "age"  : 78,
+            "isFemale" : false,
+            "siblings" : ["Chean","Chingching","Chelbia"]
+    
+        }
+    
+    ]
+    }
+
+]

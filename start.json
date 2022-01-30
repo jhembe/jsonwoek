@@ -1,0 +1,3 @@
+{
+    "cars":[{"name":"Suzuki","Engine":"750cc","price":1000},{"name":"Toyota","Engine":"1200cc","price":2000}]
+}

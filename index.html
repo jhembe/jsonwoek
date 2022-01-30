@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var name = "Joseph";
+        let car = `[
+            {
+                "name" : "Raum",
+                "Engine": "600cc",
+                "makeYear" : 2004,
+                "color" : "red"
+            }
+        ]`
+
+        let user = `[
+    {
+        "name" : "Chelsia",
+        "age" : 50,
+        "isFemale" : true,
+        "siblings" : ["Chean","Chingching","Chelbia"],
+        "friends"  : [
+        {
+            "name" : "Anna",
+            "age"  : 40,
+            "isFemale" : true,
+            "siblings" : ["Chean","Chingching","Chelbia"],
+            "class"  : 12
+        },
+        {
+            "name" : "Tumaini",
+            "age"  : 78,
+            "isFemale" : false,
+            "siblings" : ["Chean","Chingching","Chelbia"]
+    
+        }
+    
+    ]
+    },
+
+    {
+        "name" : "Chelsia",
+        "age" : 50,
+        "isFemale" : true,
+        "siblings" : ["Chean","Chingching","Chelbia"],
+        "friends"  : [
+        {
+            "name" : "Anna",
+            "age"  : 40,
+            "isFemale" : true,
+            "siblings" : ["Chean","Chingching","Chelbia"],
+            "class"  : 12
+        },
+        {
+            "name" : "Tumaini",
+            "age"  : 78,
+            "isFemale" : false,
+            "siblings" : ["Chean","Chingching","Chelbia"]
+    
+        }
+    
+    ]
+    }
+
+]`
+    console.log(car);
+    console.log(JSON.parse(car)[0].name);
+    console.log(JSON.parse(user));
+    </script>
+</body>
+</html>
